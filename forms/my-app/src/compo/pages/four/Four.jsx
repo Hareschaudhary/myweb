@@ -7,7 +7,7 @@ const Four = () => {
       <div className="">
         <nav class="navbar navbar-expand-lg border-bottom border-2  pt-sans-regular">
           <div class="container-fluid">
-            <a class="navbar-brand dancing" href="#">
+            <a class="navbar-brand dancing text-danger" href="#">
               hares chaudhary
             </a>
             <button
@@ -22,30 +22,30 @@ const Four = () => {
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse " id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-1 pt-2">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-1 pt-2 text-dark">
                 <li class="nav-item">
-                  <a class="nav-link " aria-current="page" href="#">
+                  <a class="nav-link  text-dark" aria-current="page" href="#">
                     inspiration
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">
+                  <a class="nav-link text-dark" href="#">
                     find work
                   </a>
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link " href="#">
+                  <a class="nav-link text-dark " href="#">
                     learn design
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link " href="#">
+                  <a class="nav-link text-dark " href="#">
                     Go pro
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link " href="#">
+                  <a class="nav-link text-dark " href="#">
                     Hire designers
                   </a>
                 </li>
@@ -101,11 +101,11 @@ const Four = () => {
               </a>
             </span>
           </p>
-          <p className="co d-flex justify-content-center">
+          <p className="co d-flex justify-content-center align-items-center">
             <p>wrong email address ?</p>
-            <p className=" text-danger fw-bold ms-2">
+            <p className=" text-danger fw-bold  fw-semibold">
               {" "}
-              <a className="nav-link " href="#">
+              <a className="nav-link text-danger" href="#">
                 Chang it
               </a>
             </p>
