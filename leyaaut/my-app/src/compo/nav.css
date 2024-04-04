@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.playfair {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+  }
+
+  .b{
+    background-color: rgb(68, 121, 255);
+  }
+  .p-one{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+  }
+  .p-two{
+    width: 10px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+  }
+  .p-three{
+    width: 5px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+  }
+  .navbar-collapse .nav-link:hover{
+    text-decoration: underline;
+  }
+  nav{
+    border-bottom: 2px solid black;
+  }
+  .fs-m{
+    font-size: 500%;
+    text-wrap: wrap;
+  }
+  .borderb{
+    border-top: 2px solid white;
+  }
+  .borderleft{
+    border-right: 2px solid white;
+  }
+  #img:hover{
+    display: block;
+    background-color: rgba(0, 0, 0, 0.416);
+   }
+   .btn:hover{
+    box-shadow: 0px 2px 0px blue;
+   }
+   .box{
+    width: 98%;
+    height: 100%;
+    transition: all;
+    transition-duration: 2s;
+    transform-origin: left;
+    /* transition-behavior: ; */
+   }
+.box:hover{
+  padding: 0;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.24);
+  width: 0px;
+}
+i:hover{
+  color: red;
+  /* box-shadow: 50px 0px 0px blue; */
+  transform: translateX(50px);
+}

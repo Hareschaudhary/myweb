@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+.dancing{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  .pt-sans-regular {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 600;
+
+    font-style: normal;
+  }
+  .navbar-collapse a:hover{
+   box-shadow: 1px 1px 1px black;
+   border-radius: 7px;
+  }
+  .navbar-collapse a{
+    margin-left: 5px;
+  }
+  form img{
+    box-shadow: 1px 1px 3px black;
+    /* border: 2px solid red; */
+  }
+  .co{
+   color: rgb(187,187,187);
+   font-size: 18px;
+    padding-top: 11px;
+  }
+  .my-i i:hover{
+    color: blue;
+  }
