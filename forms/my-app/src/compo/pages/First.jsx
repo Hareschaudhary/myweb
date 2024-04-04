@@ -1,6 +1,5 @@
 import React, { useEffect, useState }  from "react";
 import "./first.css";
-import "bootstrap/dist/css/bootstrap.min.css";
 import { useFormik } from "formik";
 import ValidationSchema from "./Yupform";
 import { NavLink } from "react-router-dom";
