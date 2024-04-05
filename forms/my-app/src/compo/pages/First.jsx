@@ -56,7 +56,7 @@ const First = () => {
             </div> */}
             <div class="frame"></div>
           </div>
-          <div className="col-12 col-lg-6">
+          <div className="col-12 col-lg-6 pb-3">
             <div className="row">
               <div className="col-12 d-flex justify-content-end pt-3">
                 <p className="p-0 m-0 fs-6 pe-2">
@@ -73,9 +73,9 @@ const First = () => {
             </div>
 
             <form onSubmit={handleSubmit} action="">
-              <div className="row p-lg-5 me-5 ms-5">
+              <div className="row p-lg-5 me-lg-5 ms-lg-5">
                 <div className="col-12  ">
-                  <p className=" fs-2 fw-bold ">sign up to dribble</p>
+                  <p className=" fs-2 fw-bold text-lg-start text-center ">sign up to dribble</p>
                 </div>
                 <div className="col-12 pt-2 ">
                   <p className={`${ valid ? " text-success " : " text-danger "}fs-5`}>{valid ? "go next page" : "please fill the details in the form"}</p>
@@ -174,8 +174,8 @@ const First = () => {
                     </label>
                   </div>
                 </div>
-                <div className="col-12 pt-2 pb-3 position-relative">
-                  <div class="wrapper">
+                <div className="col-12 pt-2 pb-3 d-flex justify-content-center justify-content-lg-start">
+                  <div class="wrapper ">
                     <NavLink
                       className="a"
                       style={{ textDecoration: "none", color: "white",width:"200px" }}
