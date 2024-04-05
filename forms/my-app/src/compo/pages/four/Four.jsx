@@ -5,13 +5,13 @@ const Four = () => {
   return (
     <>
       <div className="">
-        <nav class="navbar navbar-expand-lg border-bottom border-2  pt-sans-regular">
+        <nav class="navbar navbar-expand-lg border-bottom border-2  navbar-light bg-light   pt-sans-regular">
           <div class="container-fluid">
             <a class="navbar-brand dancing text-danger" href="#">
               hares chaudhary
             </a>
             <button
-              class="navbar-toggler"
+              className="navbar-toggler bg-dark shadow border border-4 border-dark"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent"
@@ -19,7 +19,7 @@ const Four = () => {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span class="navbar-toggler-icon"></span>
+              <span class="navbar-toggler-icon "></span>
             </button>
             <div class="collapse navbar-collapse " id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-1 pt-2 text-dark">

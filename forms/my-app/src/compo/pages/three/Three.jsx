@@ -32,7 +32,7 @@ useEffect(()=>{
                      </p>
                 </div>
             </div>
-        <div className="row mt-5 pt-5 justify-content-between">
+        <div className="row mt-5 pt-5 justify-content-lg-between justify-content-center">
           {value != "one" &&   <div style={{height:"400px"}}  className=" position-relative col-lg-3 mt-lg-0 mt-5 col-12 shadow rounded-3 m-3">
                 <div >
                     <img style={{height:"240px",backgroundColor:"transparent"}} className='w-100 ' src={one} alt="" />
