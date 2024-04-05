@@ -73,7 +73,7 @@ const First = () => {
             </div>
 
             <form onSubmit={handleSubmit} action="">
-              <div className="row p-5 me-5 ms-5">
+              <div className="row p-lg-5 me-5 ms-5">
                 <div className="col-12  ">
                   <p className=" fs-2 fw-bold ">sign up to dribble</p>
                 </div>
