@@ -56,9 +56,9 @@ const First = () => {
             </div> */}
             <div class="frame"></div>
           </div>
-          <div className="col-12 col-lg-6 pb-3">
+          <div className="col-12 col-lg-6 ">
             <div className="row">
-              <div className="col-12 d-flex justify-content-end pt-3">
+              <div className="col-12 d-flex justify-content-end pt-3 pb-4">
                 <p className="p-0 m-0 fs-6 pe-2">
                   already a meaber ?{" "}
                   <a
@@ -77,8 +77,8 @@ const First = () => {
                 <div className="col-12  ">
                   <p className=" fs-2 fw-bold text-lg-start text-center ">sign up to dribble</p>
                 </div>
-                <div className="col-12 pt-2 ">
-                  <p className={`${ valid ? " text-success " : " text-danger "}fs-5`}>{valid ? "go next page" : "please fill the details in the form"}</p>
+                <div className="col-12 pt-2 text-center text-lg-start ">
+                  <p className={`${ valid ? " text-success " : " text-danger "}fs-6`}>{valid ? "go next page" : "please fill the details in the form"}</p>
                 </div>
                 <div className="col-12 pt-2 pb-3 col-lg-6">
                   <label className="fs-6 pb-1 fw-bold" htmlFor="name">
